@@ -23,10 +23,10 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
     - Represents the tight bound of the running time of an algorithm.
     - Defines both the upper and lower bounds.
     - Used to describe the exact growth rate of an algorithm.
-    - Notation: f(n) = Θ(g(n))
-        - f(n) is the actual running time of the algorithm.
-        - g(n) is a function that represents the tight bound.
-        - There exist positive constants $c1$, $c2$, and $n_0$ such that $c_1g(n) <= f(n) <= c_2g(n)$ for all $n >= n_0$.
+    - Notation: $f(n) = Θ(g(n))$
+        - $f(n)$ is the actual running time of the algorithm.
+        - $g(n)$ is a function that represents the tight bound.
+        - There exist positive constants $c_1$, $c_2$, and $n_0$ such that $c_1g(n) <= f(n) <= c_2g(n)$ for all $n >= n_0$.
 
 
 #### Example:
