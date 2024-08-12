@@ -1,5 +1,5 @@
 /*
-Algorithm practice: finding maximum element in an array
+Algorithm practice: checking if an array is sorted
 */
 
 #include <iostream>
@@ -7,20 +7,19 @@ using namespace std;
 
 // Analyzing time complexity of the code:
 /*
-findMax function = O(n)
+isSorted function = O(n)
 main function = O(1)
 Total time complexity = O(n)
 */
 
-int findMax(int arr[], int n) // O(n)
+bool isSorted(int arr[], int n) // O(n)
 {
-    int max = arr[0];           // O(1)
-    for (int i = 1; i < n; i++) // O(n)
+    for (int i = 0; i < n - 1; i++) // O(n)
     {
-        if (arr[i] > max) // O(1)
-            max = arr[i];
+        if (arr[i] > arr[i + 1]) // O(1)
+            return false;
     }
-    return max;
+    return true;
 }
 
 int main() // O(1)
@@ -34,6 +33,9 @@ int main() // O(1)
     {
         cin >> arr[i]; // O(1)
     }
-    cout << "Maximum element in the array is: " << findMax(arr, n) << endl; // O(n)
+    if (isSorted(arr, n))                       // O(n)
+        cout << "The array is sorted." << endl; // O(1)
+    else
+        cout << "The array is not sorted." << endl; // O(1)
     return 0;
 }
