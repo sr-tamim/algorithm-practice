@@ -1,4 +1,4 @@
-## Asymptotic Notations:
+## Asymptotic Notations
 Asymptotic notations are mathematical tools used to describe the behavior of an algorithm as the input size grows. They help us analyze the efficiency of algorithms by providing a way to compare their running times without relying on specific hardware or software implementations. The most common asymptotic notations are:
 
 1. **Big O notation (O)**
