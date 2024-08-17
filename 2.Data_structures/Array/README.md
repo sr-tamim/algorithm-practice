@@ -9,6 +9,8 @@ An array is a linear data structure that stores a collection of elements of the 
 - **Random Access:** Elements can be accessed directly by their index, allowing for efficient retrieval.
 - **Contiguous Memory:** Elements are stored sequentially in memory.
 
+![image](https://github.com/user-attachments/assets/76a52cd4-7845-4588-9b9e-6ea343243d65)
+
 ### Types of Arrays:
 - **One-dimensional Array:** A simple list of elements arranged in a single row.
 - **Multi-dimensional Array:** An array of arrays, where each element is itself an array. Common examples include 2D matrices and 3D cubes.
