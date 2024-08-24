@@ -58,12 +58,12 @@ Time complexity is typically expressed using Big O notation. This notation provi
 
 #### Common Big O notations:
 
-1. **O** $(1)$: Constant time. The running time is independent of the input size.
-2. **O** $(log n)$: Logarithmic time. The running time grows logarithmically with the input size.
-3. **O** $(n)$: Linear time. The running time grows linearly with the input size.
-4. **O** $(n log n)$: Linearithmic time. A combination of linear and logarithmic growth.
-5. **O** $(n^2)$: Quadratic time. The running time grows quadratically with the input size.
-6. **O** $(2^n)$: Exponential time. The running time grows exponentially with the input size.
+1. **O** $$(1)$$: Constant time. The running time is independent of the input size.
+2. **O** $$(log n)$$: Logarithmic time. The running time grows logarithmically with the input size.
+3. **O** $$(n)$$: Linear time. The running time grows linearly with the input size.
+4. **O** $$(n log n)$$: Linearithmic time. A combination of linear and logarithmic growth.
+5. **O** $$(n^2)$$: Quadratic time. The running time grows quadratically with the input size.
+6. **O** $$(2^n)$$: Exponential time. The running time grows exponentially with the input size.
 
 #### Factors affecting time complexity:
 - Input size: The number of elements in the input.

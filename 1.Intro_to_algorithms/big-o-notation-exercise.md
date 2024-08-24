@@ -18,7 +18,7 @@ int findMax(int arr[], int n) // O(n)
 - The function `findMax` takes an array `arr` and its size `n` as input.
 - It initializes a variable `max` to the first element of the array.
 - It then iterates through the array to find the maximum element.
-- The time complexity of this algorithm is $O(n)$, where $n$ is the size of the input array.
+- The time complexity of this algorithm is $$O(n)$$, where $$n$$ is the size of the input array.
 
 #### Question 2:
 Sum of all elements in an array of integers. What is the time complexity of your algorithm?
@@ -38,7 +38,7 @@ int sumArray(int arr[], int n) // O(n)
 - The function `sumArray` takes an array `arr` and its size `n` as input.
 - It initializes a variable `sum` to zero.
 - It then iterates through the array to calculate the sum of all elements.
-- The time complexity of this algorithm is $O(n)$, where $n$ is the size of the input array.
+- The time complexity of this algorithm is $$O(n)$$, where $$n$$ is the size of the input array.
 
 #### Question 3:
 Check if an array of integers is sorted in ascending order. What is the time complexity of your algorithm?
@@ -59,7 +59,7 @@ bool isSorted(int arr[], int n) // O(n)
 - It iterates through the array to check if each element is greater than the next element.
     - If it finds a pair of elements that are out of order, it returns `false`.
     - else, it returns `true`.
-- The time complexity of this algorithm is $O(n)$, where $n$ is the size of the input array.
+- The time complexity of this algorithm is $$O(n)$$, where $$n$$ is the size of the input array.
 
 #### Question 4:
 Search for a given element in an array of integers using binary search. What is the time complexity of your algorithm?
@@ -85,4 +85,4 @@ int binarySearch(int arr[], int n, int key) // O(log n)
 - The function `binarySearch` takes an array `arr`, its size `n`, and a key to search for as input.
 - It initializes two variables `low` and `high` to the start and end of the array, respectively.
 - It then performs a binary search to find the key in the array.
-- The time complexity of this algorithm is $O(\log n)$, where $n$ is the size of the input array.
+- The time complexity of this algorithm is $$O(\log n)$$, where $$n$$ is the size of the input array.
