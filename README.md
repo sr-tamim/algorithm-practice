@@ -12,7 +12,7 @@ description: Algorithm Notes and Codes by SR Tamim
 
 
 ### Regards
-Saifur Rahman Tamim <br />
+**Saifur Rahman Tamim** <br />
 Computer Science Student <br />
 Northern University Bangladesh <br />
 [sr-tamim.vercel.app](https://sr-tamim.vercel.app)
