@@ -10,6 +10,8 @@ A linked list is a linear data structure where elements are stored in a non-cont
 - **Head Pointer:** Points to the first node in the linked list.
 - **Null Termination:** The last node points to null, indicating the end of the list.
 
+![Singly Linked List](https://github.com/user-attachments/assets/fd54c976-b87c-4712-bf49-c36d7c7d80d4)
+
 
 ### Types of Linked Lists:
 
