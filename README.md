@@ -9,6 +9,8 @@ description: Algorithm Notes and Codes by SR Tamim
     2. [Big O notation Exercise](1.Intro_to_algorithms/big-o-notation-exercise.md)
 2. [Data Structure](2.Data_structures)
     1. [Array](2.Data_structures/Array)
+       1. [Array Operations](2.Data_structures/Array/array-operations.md)
+    2. [Linked List](2.Data_structures/Linked_List)
 
 
 ### Regards
