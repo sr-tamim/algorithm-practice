@@ -5,6 +5,7 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
     - Represents the upper bound of the running time of an algorithm.
     - Defines the worst-case scenario.
     - Used to describe the maximum amount of time an algorithm could take to complete.
+    - Used for analyzing the worst-case time complexity of an algorithm.
     - Notation: $$f(n) = O(g(n))$$
         - $$f(n)$$ is the actual running time of the algorithm.
         - $$g(n)$$ is a function that represents the upper bound.
@@ -16,6 +17,7 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
     - Represents the lower bound of the running time of an algorithm.
     - Defines the best-case scenario.
     - Used to describe the minimum amount of time an algorithm will take to complete.
+    - Used to analyze the best-case running time of an algorithm.
     - Notation: $$f(n) = Ω(g(n))$$
         - $$f(n)$$ is the actual running time of the algorithm.
         - $$g(n)$$ is a function that represents the lower bound.
@@ -27,6 +29,7 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
     - Represents the tight bound of the running time of an algorithm.
     - Defines both the upper and lower bounds.
     - Used to describe the exact growth rate of an algorithm.
+    - Used for analyzing the average-case scenario.
     - Notation: $$f(n) = Θ(g(n))$$
         - $$f(n)$$ is the actual running time of the algorithm.
         - $$g(n)$$ is a function that represents the tight bound.
