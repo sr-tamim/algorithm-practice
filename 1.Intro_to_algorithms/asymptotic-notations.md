@@ -1,11 +1,12 @@
 ## Asymptotic Notations
 Asymptotic notations are mathematical tools used to describe the behavior of an algorithm as the input size grows. They help us analyze the efficiency of algorithms by providing a way to compare their running times without relying on specific hardware or software implementations. The most common asymptotic notations are:
 
+#### Types of Asymptotic Notations:
+
 1. **Big O notation (O)**
     - Represents the upper bound of the running time of an algorithm.
     - Defines the worst-case scenario.
     - Used to describe the maximum amount of time an algorithm could take to complete.
-    - Used for analyzing the worst-case time complexity of an algorithm.
     - Notation: $$f(n) = O(g(n))$$
         - $$f(n)$$ is the actual running time of the algorithm.
         - $$g(n)$$ is a function that represents the upper bound.
@@ -17,7 +18,6 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
     - Represents the lower bound of the running time of an algorithm.
     - Defines the best-case scenario.
     - Used to describe the minimum amount of time an algorithm will take to complete.
-    - Used to analyze the best-case running time of an algorithm.
     - Notation: $$f(n) = Ω(g(n))$$
         - $$f(n)$$ is the actual running time of the algorithm.
         - $$g(n)$$ is a function that represents the lower bound.
