@@ -9,6 +9,8 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
         - $$f(n)$$ is the actual running time of the algorithm.
         - $$g(n)$$ is a function that represents the upper bound.
         - There exist positive constants $$c$$ and $$n_0$$ such that $$f(n) <= c \cdot g(n)$$ for all $$n >= n_0$$.
+    
+            ![Screenshot 2024-09-17 184813](https://github.com/user-attachments/assets/afba17bc-84a5-4051-9427-7ab32dfae574)
 
 2. **Big Omega notation (Ω)**
     - Represents the lower bound of the running time of an algorithm.
@@ -19,6 +21,8 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
         - $$g(n)$$ is a function that represents the lower bound.
         - There exist positive constants $$c$$ and $$n_0$$ such that $$f(n) >= c \cdot g(n)$$ for all $$n >= n_0$$.
 
+            ![Screenshot 2024-09-17 185320](https://github.com/user-attachments/assets/995fc336-b090-47ca-85d2-f98ee90794f4)
+
 3. **Big Theta notation (Θ)**
     - Represents the tight bound of the running time of an algorithm.
     - Defines both the upper and lower bounds.
@@ -28,6 +32,7 @@ Asymptotic notations are mathematical tools used to describe the behavior of an 
         - $$g(n)$$ is a function that represents the tight bound.
         - There exist positive constants $$c_1$$, $$c_2$$, and $$n_0$$ such that $$c_1 \cdot g(n) <= f(n) <= c_2 \cdot g(n)$$ for all $$n >= n_0$$.
 
+            ![Screenshot 2024-09-17 185444](https://github.com/user-attachments/assets/eb3b3f69-4fbf-4ab9-9427-82ab9bb2d364)
 
 #### Example:
 Consider the following functions:
